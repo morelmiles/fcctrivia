@@ -3,6 +3,9 @@
 	"version": "0.1.0",
 	"description": "Trivia demo app is my first repository using nodejs and mongodb.",
 	"main": "app.js",
+	"scripts": {
+    	"start": "node app.js"
+  	},
 	"dependencies": {
 		"express": "~4.13.3",
 		"consolidate": "~0.13.1",
