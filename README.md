@@ -7,7 +7,7 @@ Development Setup
 
 Prerequisites: [Node.js](http://nodejs.org/) 
 
-Fork this project to your GitHub account (Fork button is on this project in the top menu).
+Fork this project to your GitHub account (Fork button is in this project in the top menu).
 
 ```bash
 # On Windows run cmd command and then clone the forked project
