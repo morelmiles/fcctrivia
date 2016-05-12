@@ -33,3 +33,7 @@ More info will follow.
 See it live!
 ---------------
 Trivia is hosted on [Heroku](https://heroku.com/) you can see it live [here](https://trivia-demo-app.herokuapp.com/)
+
+Check the Issues
+---------------
+Check the Issues tab in the top menu. There are some opened issues which you can try out.
