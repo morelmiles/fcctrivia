@@ -27,6 +27,8 @@ Now you can open your browser with following address: [http://localhost:5000](ht
 
 You should see our welcome screen.
 
+In order to contriubute with your own code, you need to create a pull request...
+More info will follow.
 
 See it live!
 ---------------
