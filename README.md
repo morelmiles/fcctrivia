@@ -7,9 +7,11 @@ Development Setup
 
 Prerequisites: [Node.js](http://nodejs.org/) 
 
+Fork this project to your GitHub account (Fork button is on this project in the top menu).
+
 ```bash
-# On Windows run cmd command and then clone the project
-git clone https://github.com/DusanSacha/fcctrivia.git
+# On Windows run cmd command and then clone the forked project
+git clone https://github.com/*yourusername*/fcctrivia.git
 
 # If poject was cloned successfully then switch to project directory
 cd fcctrivia
