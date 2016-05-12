@@ -25,3 +25,7 @@ Now you can open your browser with following address: [http://localhost:5000](ht
 
 You should see our welcome screen.
 
+
+See it live!
+---------------
+Trivia is hosted on [Heroku](https://heroku.com/) you can see it live [here](https://trivia-demo-app.herokuapp.com/)
