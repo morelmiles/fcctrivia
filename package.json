@@ -1,18 +1,19 @@
 {
 	"name":"trivia-demo-app",
-	"version": "0.1.0",
-	"description": "Trivia demo app is my first repository using nodejs and mongodb.",
+	"version": "0.0.0",
+	"description": "Trivia demo app is repository for javascript learning purposes",
 	"main": "app.js",
 	"scripts": {
     	"start": "node app.js"
   	},
 	"dependencies": {
 		"express": "~4.13.3",
-		"consolidate": "~0.13.1",
-		"nunjucks": "~2.2.0"
+		"nunjucks": "~2.2.0",
+		"jquery": "~2.2",
+		"bootstrap": "~3.1" 
 	},
 	"engines": {
-    	"node": "4.4.2"
+    	"node": ">=4.0.0"
   	},
 	"author": "Dusan Sacha"
 }
