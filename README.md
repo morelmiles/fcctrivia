@@ -36,7 +36,7 @@ How to contribute with your code
 ---------------
 In order to contriubute with your own code, you need to create a pull request from your branch. Follow these steps in your local directory:
 
-1. check if you are in master branch and it is up to date
+Step 1. check if you are in master branch and it is up to date
 ```bash
 git status
 # On branch master
@@ -44,29 +44,31 @@ git status
 
 # nothing to commit, working directory clean
 ```
-2. if you are not in master branch and/or there are some unresolved commits, please resolve your unwanted commits first and then switch to master branch by typing
+Step 2. if you are not in master branch and/or there are some unresolved commits, please resolve your unwanted commits first and then switch to master branch by typing
 ```bash
 git checkout master
 ```
-3. create your new branch
+Step 3. create your new branch
 ```bash
 git checkout -B branch/name-here
 # Follow branch naming e.g. fix/short-description, feature/short-description
 ```
-4. Edit your files locally
-5. After you are done check your changed files and commit
+Step 4. Edit your files locally
+
+Step 5. After you are done check your changed files and commit
 ```bash
 git status
 git commit -m "Your commit description" 
 ```
-6. Push commit to your fork
+Step 6. Push commit to your fork
 ```bash
 git push -u origin branch/name-here
 ```
-7. Find your branch here on GitHub and create a Pull Request from your branch to Trivias's master branch.
+Step 7. Find your branch here on GitHub and create a Pull Request from your branch to Trivias's master branch.
 
 See it live!
 ---------------
-Trivia is hosted on [Heroku](https://heroku.com/) you can see it live [here](https://trivia-demo-app.herokuapp.com/)
+Trivia is hosted on [Heroku](https://heroku.com/) you can see it live [here](https://trivia-demo-app.herokuapp.com/).
+
 Keep in mind that your git pushes don't go automaticaly to this hosting. We have to check it and deploy it.
 
