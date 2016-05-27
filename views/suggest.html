@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<h1>Suggest a question form</h1>
+<form role="form">
+	<div class="form-group">
+		<label for="question">Question:</label>
+		<input type="text" class="form-control" id="question" placeholder="Enter your question suggest">
+	</div>
+	<div class="form-group">
+		<label for="answer1">Answer 1:</label>
+		<input type="text" class="form-control" id="answer1" placeholder="Enter first answer option">
+	</div>
+	<div class="form-group">
+		<label for="answer2">Answer 2:</label>
+		<input type="text" class="form-control" id="answer2" placeholder="Enter second answer option">
+	</div>
+	<div class="form-group">
+		<label for="answer3">Answer 3:</label>
+		<input type="text" class="form-control" id="answer3" placeholder="Enter third answer option">
+	</div>
+	<p>Correct answer:</p>
+	<div class="form-group">
+		<label class="radio-inline">
+			<input type="radio" name="correct-answer">Answer 1
+		</label>
+		<label class="radio-inline">
+			<input type="radio" name="correct-answer">Answer 2
+		</label>
+		<label class="radio-inline">
+			<input type="radio" name="correct-answer">Answer 3
+		</label>
+	</div>
+	<div class="form-group">
+		<button type="submit" class="btn btn-default" disabled>Submit</button>
+	</div>
+</form>
+{% endblock %}

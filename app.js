@@ -24,6 +24,18 @@ app.get('/', function(req,res) {
 	res.render('index');
 });
 
+app.get('/play', function(req,res) {
+	res.render('play');
+});
+
+app.get('/suggest', function(req,res) {
+	res.render('suggest');
+});
+
+app.get('/contact', function(req,res) {
+	res.render('contact');
+});
+
 app.use(function(req,res) {
 	res.sendStatus(404);
 });
